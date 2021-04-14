@@ -43,7 +43,7 @@ let address = await tab.evaluate(function(ele){
  
  let postLink = await tab.evaluate(function(ele){
          return ele.getAttribute('src');
-     },post[3]);
+     },post[0]);
  
   await tab.goto(postLink);
 
